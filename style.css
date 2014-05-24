@@ -1,0 +1,48 @@
+body {
+    /* background-color: #efefef;*/
+    background-color: #9D4799;
+}
+
+.main-container {
+    padding-top: 2%;
+    border-top: 5px solid #E50565;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.btn, .form-control {
+    transition: background-color .25s;
+}
+
+.form-control, .btn, .panel {
+    border-width: 0px;
+    box-shadow: none;
+}
+
+.panel.panel-default {
+    background-color: #f8f8f8;
+}
+
+.btn.btn-primary {
+    background-color: #9D4799;
+}
+
+.btn.btn-secondary {
+    color: #fff;
+    background-color: #E50565;
+}
+
+.btn.btn-primary:hover {
+    background-color: #8A4186;
+}
+
+.form-control {
+    background-color: #eee;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    background-color: #fff;
+}

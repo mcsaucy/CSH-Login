@@ -1,7 +1,17 @@
 body {
-    /* background-color: #efefef;*/
-    background-color: #9D4799;
+    background-color: #3f3f3f;
+	background-image: url("https://webauth.csh.rit.edu/images/tile.png");
+	background-repeat: repeat;
+    /*background-color: #9D4799;*/
 }
+
+.trouble {
+	color: #fff;
+}
+
+.logo {
+	 -webkit-filter: invert(100%);  
+ }
 
 .main-container {
     padding-top: 2%;
@@ -22,7 +32,8 @@ body {
 }
 
 .panel.panel-default {
-    background-color: #f8f8f8;
+    background-color: rgba(32,32,32,0.7);
+    /*background-color: #f8f8f8;*/
 }
 
 .btn.btn-primary {
